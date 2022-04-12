@@ -1,0 +1,16 @@
+.venv
+.coverage
+*.egg-info
+__pycache__
+__snapshots__
+pip-wheel-metadata
+.history
+services/.DS_Store
+.DS_Store
+build
+wip.py
+node_modules
+.next/
+dist
+**dev-plx.json
+*.log
