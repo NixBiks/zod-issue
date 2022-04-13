@@ -1,0 +1,23 @@
+{
+  "name": "domain",
+  "dependencies": {
+    "firestore-zod": "workspace:*",
+    "zod": "^3.13.4"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsup src/db/index.ts src/validators/index.ts --dts",
+    "dev": "tsup src/db/index.ts src/validators/index.ts --watch --onSuccess \"tsc --emitDeclarationOnly --declaration\""
+  },
+  "exports": {
+    "./": "./dist/"
+  },
+  "typesVersions": {
+    "*": {
+      "validators": ["dist/validators/index.d.ts"],
+      "db": ["dist/db/index.d.ts"]
+    }
+  }
+}

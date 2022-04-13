@@ -1,9 +1,7 @@
 {
-  "name": "validators",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "my-package",
   "dependencies": {
-    "zod": "^3.13.4"
+    "domain": "workspace:*"
   },
   "devDependencies": {
     "tsconfig": "workspace:*"
