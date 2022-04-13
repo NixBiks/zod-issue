@@ -4,7 +4,6 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "firebase": "^9.6.8",
-    "validators": "workspace:*",
     "zod": "^3.13.4"
   }, 
   "devDependencies": {
